@@ -1,4 +1,4 @@
-# skycast
+# 🌤️: skycast
 
 A new Flutter project.
 
