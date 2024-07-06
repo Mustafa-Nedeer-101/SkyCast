@@ -1,6 +1,6 @@
 # 🌤️ skycast
 
-A new Flutter project.
+A new Flutter weather application.
 
 <img src="https://github.com/Mustafa-Nedeer-101/SkyCast/assets/111573428/8b9baea3-b9a1-47f9-8eca-583063706d91" alt="onboarding" width="300">
 
