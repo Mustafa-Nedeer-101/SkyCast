@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:skycast/features/weather/controllers/location_controller.dart';
+import 'package:skycast/weather/controllers/location_controller.dart';
 import 'package:skycast/utils/controllers/network_manager.dart';
 
 class GeneralBindings extends Bindings {

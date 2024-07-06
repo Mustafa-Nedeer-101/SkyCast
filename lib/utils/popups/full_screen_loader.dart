@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:skycast/common/widgets/loaders/animation_loader.dart';
+import 'package:skycast/common/loaders/animation_loader.dart';
 import 'package:skycast/utils/constants/colors.dart';
 import 'package:skycast/utils/helpers/helper_functions.dart';
 

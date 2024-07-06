@@ -2,7 +2,7 @@ import 'dart:async';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:skycast/common/widgets/loaders/loaders.dart';
+import 'package:skycast/common/loaders/loaders.dart';
 
 class NetworkManager extends GetxController {
   static NetworkManager get instance => Get.find();

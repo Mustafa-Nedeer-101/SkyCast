@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:skycast/bindings/general_bindings.dart';
-import 'package:skycast/features/weather/screens/home/home.dart';
+import 'package:skycast/weather/screens/home/home.dart';
 import 'package:skycast/utils/theme/app_theme.dart';
 
 class App extends StatelessWidget {
