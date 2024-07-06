@@ -62,7 +62,7 @@ class TemperatureArea extends StatelessWidget {
               text: TextSpan(children: [
                 TextSpan(
                     text: "$temp°",
-                    style: TextStyle(
+                    style: const TextStyle(
                       fontWeight: FontWeight.w600,
                       fontSize: 50,
                       color: CColors.black,

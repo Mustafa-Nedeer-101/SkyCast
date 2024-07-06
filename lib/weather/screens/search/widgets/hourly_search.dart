@@ -41,7 +41,7 @@ class HourlyList extends StatelessWidget {
       child: ListView.builder(
           scrollDirection: Axis.horizontal,
           itemBuilder: (context, index) => HourlyIcon(
-                index: 0,
+                index: -1,
                 cardIndex: index,
                 hourElement: hours?[index],
               ),
