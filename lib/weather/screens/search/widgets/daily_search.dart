@@ -45,6 +45,7 @@ class DailyList extends StatelessWidget {
     return SizedBox(
       height: 200,
       child: ListView.builder(
+        physics: const NeverScrollableScrollPhysics(),
         scrollDirection: Axis.vertical,
         itemCount: days.length,
         itemBuilder: (context, index) {

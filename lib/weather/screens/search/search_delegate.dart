@@ -20,8 +20,16 @@ class SearchInSkyCast extends SearchDelegate {
   @override
   Widget buildResults(BuildContext context) {
     WeatherSearchController.resetVariables();
-    WeatherSearchController.query = query;
-    query = 'Results';
+
+    int firstCommaIndex = query.indexOf(',');
+
+    String cityName = query.substring(0, firstCommaIndex).trim();
+
+    String cityInfo = query.substring(firstCommaIndex + 1).trim();
+
+    WeatherSearchController.query = cityInfo;
+    query = cityName;
+
     return const SearchResultScreen();
   }
 
@@ -43,7 +51,7 @@ class SearchInSkyCast extends SearchDelegate {
               return GestureDetector(
                   onTap: () {
                     query =
-                        '${WeatherSearchController.locationsList[index].lat}, ${WeatherSearchController.locationsList[index].lon}';
+                        '${WeatherSearchController.locationsList[index].name}, ${WeatherSearchController.locationsList[index].lat}, ${WeatherSearchController.locationsList[index].lon}';
 
                     showResults(context);
                   },
